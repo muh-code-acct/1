@@ -52,4 +52,41 @@ h1 {
     font-family: "Helvetica Neue"
 }
 
+.next-quote {
+    color: #f84342
+}
+
+
+.footer-blurb{
+    font-style: italic;
+    text-align: right;
+    font-size: 10px;
+}
+
+.logo:hover {
+    text-decoration: none;
+}
+
+.about {
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garmond", "ITC Garamond Narrow", "New Centry Schoolbook", "Centry Schoolbook", "Centry Schoolbook L", Georgia, Serif;
+    
+}
+
+@media (max-width: 750px) {
+    .footer-blurb {
+        text-align: left;
+    }
+}
+
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+h2 span {
+    color: #dddddd
+}
+
+::selection {
+    background-color: #f84342
+}
 
